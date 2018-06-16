@@ -1,0 +1,5 @@
+main: me.mao.minigame.Core
+name: day3
+version: 0.0.3
+commands:
+  heal:
