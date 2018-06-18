@@ -17,6 +17,7 @@ public abstract class CoreCommand implements CommandExecutor {
         }
     }
 
+
     private void registerCommands(String[] cmds){
         for(String cmd : cmds) {
             try {
