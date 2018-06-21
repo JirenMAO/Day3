@@ -1,6 +1,7 @@
 package me.mao.minigame.user;
 
 import me.mao.minigame.api.coreUser.CoreUser;
+import me.mao.minigame.user.rank.Rank;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
@@ -8,16 +9,17 @@ import java.util.UUID;
 
 public class User extends CoreUser {
 
-    private String name;
+
     private UUID id;
-    private Player player;
+
+    private Rank rank;
     private int coins;
 
-    public User(UUID id, int coins) {
+    public User(UUID id, int coins, Rank rank) {
         this.id = id;
         this.coins = coins;
-        this.player = Bukkit.getPlayer(id);
-        this.name = player.getName();
+
+        this.rank = rank;
     }
 
 
@@ -25,12 +27,10 @@ public class User extends CoreUser {
         return id;
     }
 
-    public Player getPlayer() {
-        return player;
-    }
 
-    public String getName() {
-        return name;
+
+    public Rank getRank() {
+        return rank;
     }
 
     public int getCoins() {
@@ -41,15 +41,16 @@ public class User extends CoreUser {
         this.id = id;
     }
 
-    public void setPlayer(Player p) {
-        this.player = p;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public void setCoins(int coins) {
         this.coins = coins;
+    }
+
+    public void setRank(Rank rank) {
+        this.rank = rank;
+    }
+
+    public boolean hasPermission(String permission) {
+        return rank.getPermissions().contains(permission);
     }
 }

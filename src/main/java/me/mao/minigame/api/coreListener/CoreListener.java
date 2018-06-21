@@ -60,9 +60,10 @@ public abstract class CoreListener implements Listener, EventExecutor {
                 InvocationTargetException ite = (InvocationTargetException) e;
                 e.setStackTrace(ite.getCause().getStackTrace());
             }
+
             String eventName = arg1.getClass().getCanonicalName();
-            core.getLogger().severe("Error on event: " + e.getMessage() + name + eventName);
-            core.getLogger().severe("Unhandled exception in listener " + name + "! Please check the error logs for more information: " + name + ":" + e.getClass().getCanonicalName());
+            core.getLogger().severe("Error on event: " + e + name + eventName);
+            core.getLogger().severe("Unhandled exception in listener " + name + "! Please check the error logs for more information: " + name + ":" + e);
         }
 
     }

@@ -3,8 +3,7 @@ package me.mao.minigame.commands.arenaCommands;
 import me.mao.minigame.Core;
 import me.mao.minigame.api.coreCommand.CoreCommand;
 import me.mao.minigame.api.utils.ChatUtils;
-import me.mao.minigame.arenaSystem.Arena;
-import me.mao.minigame.arenaSystem.ArenaManager;
+import me.mao.minigame.arena.Arena;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -18,28 +17,31 @@ public class Join extends CoreCommand {
         this.core = core;
     }
 
-    public boolean handleCommand(CommandSender sender, Command cmd, String label, String[] args) {
-        if(!(sender instanceof Player)) {
+    @Override
+    public boolean handleCommand(CommandSender sender, Command cmd, String label, String[] args) throws Exception {
+        Player p = (Player) sender;
+        if(args.length < 1) {
+            p.sendMessage(ChatUtils.colorize("&c/join <arena>"));
             return true;
         }
 
-        Player player = (Player) sender;
-
-        if(args.length == 0) {
-            player.sendMessage(ChatUtils.colorize("&c/join <arena>"));
+        Arena arena = core.getArenaManager().getArena(p);
+        if(arena != null) {
+            p.sendMessage(ChatUtils.colorize("&cYou are already in an arena!"));
             return true;
         }
 
-        ArenaManager am = new ArenaManager(core);
-        Arena arena = am.getArena(args[0]);
+        Arena a = core.getArenaManager().getArena(args[0]);
 
-        if(arena == null) {
-            player.sendMessage(ChatUtils.colorize("&cThat arena dosent exist!"));
+        if(a != null) {
+            p.sendMessage(ChatUtils.colorize("&cThat arena dosent exist!"));
             return true;
         }
 
-        arena.addPlayer(player);
+        arena.addPlayer(p);
 
-        return false;
+        p.sendMessage(ChatUtils.colorize("&3Joined The arena &7" + args[0]));
+
+        return true;
     }
 }

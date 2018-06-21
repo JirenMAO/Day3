@@ -3,8 +3,7 @@ package me.mao.minigame.commands.arenaCommands;
 import me.mao.minigame.Core;
 import me.mao.minigame.api.coreCommand.CoreCommand;
 import me.mao.minigame.api.utils.ChatUtils;
-import me.mao.minigame.arenaSystem.Arena;
-import me.mao.minigame.arenaSystem.ArenaManager;
+import me.mao.minigame.arena.Arena;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -18,28 +17,20 @@ public class Leave extends CoreCommand {
         this.core = core;
     }
 
-    public boolean handleCommand(CommandSender sender, Command cmd, String label, String[] args) {
-        if(!(sender instanceof Player)) {
-            return true;
-        }
+    @Override
+    public boolean handleCommand(CommandSender sender, Command cmd, String label, String[] args) throws Exception {
+        Player p = (Player) sender;
 
-        Player player = (Player) sender;
-
-        if(args.length != 0) {
-            return true;
-        }
-
-        ArenaManager am = new ArenaManager(core);
-        Arena arena = am.getArena(player);
-
+        Arena arena = core.getArenaManager().getArena(p);
         if(arena == null) {
-            player.sendMessage(ChatUtils.colorize("&cYou are not in an arena!"));
+            p.sendMessage(ChatUtils.colorize("&cYou are not in an Arena!"));
             return true;
         }
 
-        arena.removePlayer(player);
+        arena.removePlayer(p);
 
-        return false;
+        p.sendMessage(ChatUtils.colorize("&3You have left the arena &7" + arena.getName()));
+
+        return true;
     }
-
 }

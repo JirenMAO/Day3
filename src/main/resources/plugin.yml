@@ -3,11 +3,21 @@ name: day3
 version: 0.0.3
 commands:
   heal:
-  create:
-  c:
   join:
-  j:
   leave:
-  l:
+  create:
   delete:
   remove:
+  fstart:
+  start:
+  fstop:
+  stop:
+  j:
+  l:
+  c:
+  arenas:
+  listarenas:
+  fcreate:
+  rank:
+  mr:
+  menchant:

@@ -17,6 +17,7 @@ public class PlayerLeave extends CoreListener {
 
     @EventHandler
     public void onQuit(PlayerQuitEvent e) {
+        core.getRankManager().saveRank(core.getUserManager().getUser(e.getPlayer()).getRank());
         core.getUserManager().removeUser(e.getPlayer());
     }
 

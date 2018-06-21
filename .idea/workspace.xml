@@ -7,28 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8799d63a-d6ff-4611-9141-cc6529528ef9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreArena/CoreArena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/mao/minigame/arenaSystem/Arena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/mao/minigame/arenaSystem/ArenaManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/mao/minigame/arenaSystem/spawn/Spawn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Create.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Join.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Leave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/mao/minigame/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mao/minigame/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreArena/CoreArena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreArena/CoreArena.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreCommand/CoreCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreCommand/CoreCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreListener/CoreListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreListener/CoreListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreUser/CoreUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreUser/CoreUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mao/minigame/arenaSystem/Arena.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mao/minigame/arenaSystem/ArenaManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mao/minigame/arenaSystem/spawn/Spawn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/TestCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/TestCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Create.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Delete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Join.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Leave.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mao/minigame/listeners/PlayerJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mao/minigame/listeners/PlayerJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mao/minigame/listeners/PlayerLeave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mao/minigame/listeners/PlayerLeave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mao/minigame/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mao/minigame/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mao/minigame/user/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mao/minigame/user/UserManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/mao/minigame/Core.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/mao/minigame/api/coreCommand/CoreCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/mao/minigame/api/coreListener/CoreListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/mao/minigame/api/usesAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/mao/minigame/api/utils/ChatUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/mao/minigame/commands/TestCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/mao/minigame/listeners/PlayerJoin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,11 +40,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Core.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/Core.java">
+      <file leaf-file-name="ArenaManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/arena/ArenaManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="374">
+              <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+              <folding>
+                <element signature="e#1511#1512#0" expanded="true" />
+                <element signature="e#1599#1600#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RankManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/user/rank/RankManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1511#1512#0" expanded="true" />
+                <element signature="e#1557#1558#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/user/UserManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="25" column="52" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,48 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Arena.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/arenaSystem/Arena.java">
+      <file leaf-file-name="Arenas.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Arenas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="60" column="49" lean-forward="true" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#811#812#0" expanded="true" />
-                <element signature="e#2319#2320#0" expanded="true" />
-                <element signature="e#2355#2356#0" expanded="true" />
-                <element signature="e#2389#2390#0" expanded="true" />
-                <element signature="e#2425#2426#0" expanded="true" />
-                <element signature="e#1891#1892#0" expanded="true" />
-                <element signature="e#1935#1936#0" expanded="true" />
-                <element signature="e#2275#2276#0" expanded="true" />
-                <element signature="e#2317#2318#0" expanded="true" />
-                <element signature="e#2357#2358#0" expanded="true" />
-                <element signature="e#2415#2416#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArenaManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/arenaSystem/ArenaManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
-                <element signature="e#970#971#0" expanded="true" />
-                <element signature="e#1018#1019#0" expanded="true" />
-                <element signature="e#1081#1082#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -102,20 +91,11 @@
       <file leaf-file-name="Create.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Create.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+            <state relative-caret-position="228">
+              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -123,11 +103,26 @@
       <file leaf-file-name="Delete.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Delete.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="45" column="94" lean-forward="true" selection-start-line="45" selection-start-column="94" selection-end-line="45" selection-end-column="94" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForceStart.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/ForceStart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForceStop.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/ForceStop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -135,23 +130,8 @@
       <file leaf-file-name="Join.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Join.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="13" selection-start-line="13" selection-end-line="43" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/TestCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="234">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -159,11 +139,8 @@
       <file leaf-file-name="Leave.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Leave.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -178,37 +155,68 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>susers.get</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/usesAPI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/CoreListener/CoreListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/CoreListener/CoreListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/utils/ChatUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreListener/CoreListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/TestCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/arenaSystem/spawn/Spawn.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/arenaSystem/Countdown.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/SettingsManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/arenaSystem/Arena.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Spawn.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/arenaSystem/ArenaManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreArena/CoreArena.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreCommand/CoreCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Dlete.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Join.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/ForceStart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/ForceStop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Leave.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreFaction/CoreFaction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/faction/Faction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreArena/CoreFactionMemeber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/faction/FactionRole.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreFaction/CoreFactionMemeber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/faction/FactionMember.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/arena/data/ArenaData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/faction/data/FactionData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/faction/FactionManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/faction/FactionListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/factionCommands/Create.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/user/rank/Rank.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreUser/coreRank/CoreRank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/user/data/UserData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/user/rank/RankData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/listeners/PlayerLeave.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/classesGetter/GetCoreCommandClasses.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/classesGetter/GetClasses.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreListener/CoreListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/rankCommands/RankCreate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/rankCommands/RankList.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreUser/CoreUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/user/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/rankCommands/RankSet.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/user/UserManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/listeners/AsyncPlayerChat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/user/rank/RankManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/listeners/PlayerJoin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/listeners/PlayerLeave.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreArena/CoreArena.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/arenaSystem/spawn/Spawn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/arenaSystem/Arena.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreCommand/CoreCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Join.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Leave.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Delete.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Create.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/rankCommands/RankCommands.java" />
         <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/arenaSystem/ArenaManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/TestCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/arena/Arena.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/Core.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Arenas.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Create.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Delete.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/mao/minigame/arena/ArenaManager.java" />
       </list>
     </option>
   </component>
@@ -229,8 +237,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="85" />
+    <option name="x" value="7" />
+    <option name="y" value="117" />
     <option name="width" value="1260" />
     <option name="height" value="838" />
   </component>
@@ -242,9 +250,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,7 +291,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="minigame" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="arena" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Day3" type="b2602c69:ProjectViewProjectNode" />
@@ -294,67 +300,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="minigame" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="coreArena" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Day3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Day3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="minigame" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="coreCommand" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Day3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Day3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="minigame" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="coreListener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Day3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Day3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="minigame" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="coreUser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Day3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Day3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="minigame" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Day3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Day3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="minigame" type="462c0819:PsiDirectoryNode" />
-              <item name="arenaSystem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Day3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Day3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="minigame" type="462c0819:PsiDirectoryNode" />
-              <item name="arenaSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="spawn" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Day3" type="b2602c69:ProjectViewProjectNode" />
@@ -367,12 +313,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="day3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/worldedit-bukkit-6.1.7.3 (1).jar" />
+    <property name="last_opened_file_path" value="$USER_HOME$/eclipse-workspace/Necessities" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -381,7 +333,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="me.mao.minigame.arena" />
+      <recent name="me.mao.minigame.commands.rankCommands" />
       <recent name="me.mao.minigame.listeners" />
+      <recent name="me.mao.minigame.api.classesGetter" />
+      <recent name="me.mao.minigame.user.rank" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -452,21 +408,38 @@
       <workItem from="1529174453028" duration="7151000" />
       <workItem from="1529231531578" duration="1798000" />
       <workItem from="1529271797271" duration="6532000" />
+      <workItem from="1529342090125" duration="8129000" />
+      <workItem from="1529354510486" duration="8338000" />
+      <workItem from="1529425934053" duration="4690000" />
+      <workItem from="1529445242027" duration="7150000" />
+      <workItem from="1529492657633" duration="8271000" />
+      <workItem from="1529522447487" duration="30000" />
+      <workItem from="1529523062853" duration="1575000" />
+      <workItem from="1529576739099" duration="15100000" />
     </task>
+    <task id="LOCAL-00001" summary="Added an arena system, i hope it works!">
+      <created>1529342217398</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1529342217398</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15481000" />
+    <option name="totallyTimeSpent" value="68764000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="85" width="1260" height="838" extended-state="0" />
+    <frame x="7" y="117" width="1260" height="838" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.46945336" visible="true" weight="0.17265193" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5305466" side_tool="true" visible="true" weight="0.17265193" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -474,7 +447,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -484,11 +457,10 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.17356688" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32872927" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,230 +469,29 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added an arena system, i hope it works!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added an arena system, i hope it works!" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/Core.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="34" lean-forward="true" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreArena/CoreArena.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/arenaSystem/Arena.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#2319#2320#0" expanded="true" />
-            <element signature="e#2355#2356#0" expanded="true" />
-            <element signature="e#2389#2390#0" expanded="true" />
-            <element signature="e#2425#2426#0" expanded="true" />
-            <element signature="e#1891#1892#0" expanded="true" />
-            <element signature="e#1935#1936#0" expanded="true" />
-            <element signature="e#2275#2276#0" expanded="true" />
-            <element signature="e#2317#2318#0" expanded="true" />
-            <element signature="e#2357#2358#0" expanded="true" />
-            <element signature="e#2415#2416#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreUser/CoreUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/user/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/user/UserManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/listeners/PlayerJoin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/listeners/PlayerLeave.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/arenaSystem/ArenaManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Delete.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Spawn.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/arenaSystem/ArenaManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/api/utils/FileBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreUser/CoreUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/user/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/user/UserManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreCommand/CoreCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/TestCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreListener/CoreListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/listeners/PlayerJoin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="53" lean-forward="true" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/listeners/PlayerLeave.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/Core.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/api/usesAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#139#140#0" expanded="true" />
-          </folding>
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/api/utils/ChatUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="187">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -728,98 +499,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreListener/CoreListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreArena/CoreArena.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="540">
+          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/user/rank/Rank.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreUser/coreRank/CoreRank.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreUser/CoreUser.java">
+    <entry file="jar://$USER_HOME$/Downloads/worldedit-bukkit-6.1.7.3 (1).jar!/com/sk89q/worldedit/util/YAMLConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/user/User.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/spigotmc/spigot-api/1.12.2-R0.1-SNAPSHOT/spigot-api-1.12.2-R0.1-20180617.030601-148.jar!/org/bukkit/configuration/file/YamlConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-2346">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/user/UserManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/faction/FactionRole.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/faction/FactionMember.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/faction/data/FactionData.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreFaction/CoreFaction.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreFaction/CoreFactionMemeber.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/faction/Faction.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/faction/FactionListener.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/factionCommands/Create.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/faction/FactionManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreUser/coreRank/CoreRank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/listeners/PlayerJoin.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/user/rank/Rank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="540">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/listeners/PlayerLeave.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="19" column="93" selection-start-line="19" selection-start-column="93" selection-end-line="19" selection-end-column="93" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/api/classesGetter/GetCoreCommandClasses.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="59" column="81" selection-start-line="59" selection-start-column="81" selection-end-line="59" selection-end-column="81" />
+        <state relative-caret-position="517">
+          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/arenaSystem/spawn/Spawn.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/user/rank/RankData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="540">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreArena/CoreArena.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/api/classesGetter/GetClasses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreListener/CoreListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/user/data/UserData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/rankCommands/RankCreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -828,48 +598,134 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreCommand/CoreCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="663">
+          <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/rankCommands/RankList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/api/coreUser/CoreUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/rankCommands/RankSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/listeners/AsyncPlayerChat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/listeners/PlayerJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/rankCommands/RankCommands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4196#4744#0" expanded="true" />
+            <element signature="e#4743#4744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/TestCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="415">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/arena/data/ArenaData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/arena/Arena.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="107" column="19" lean-forward="true" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/Core.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Arenas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Create.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Leave.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Join.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="13" selection-start-line="13" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="228">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -878,67 +734,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Delete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="45" column="94" lean-forward="true" selection-start-line="45" selection-start-column="94" selection-end-line="45" selection-end-column="94" />
+        <state relative-caret-position="340">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/ForceStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/ForceStop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Join.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/commands/arenaCommands/Leave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/user/rank/RankManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1511#1512#0" expanded="true" />
+            <element signature="e#1557#1558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/user/UserManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" column="52" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/arena/ArenaManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/arenaSystem/ArenaManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="374">
+          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/Core.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/mao/minigame/arenaSystem/Arena.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="60" column="49" lean-forward="true" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#2319#2320#0" expanded="true" />
-            <element signature="e#2355#2356#0" expanded="true" />
-            <element signature="e#2389#2390#0" expanded="true" />
-            <element signature="e#2425#2426#0" expanded="true" />
-            <element signature="e#1891#1892#0" expanded="true" />
-            <element signature="e#1935#1936#0" expanded="true" />
-            <element signature="e#2275#2276#0" expanded="true" />
-            <element signature="e#2317#2318#0" expanded="true" />
-            <element signature="e#2357#2358#0" expanded="true" />
-            <element signature="e#2415#2416#0" expanded="true" />
+            <element signature="e#1511#1512#0" expanded="true" />
+            <element signature="e#1599#1600#0" expanded="true" />
           </folding>
         </state>
       </provider>
