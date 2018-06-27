@@ -4,31 +4,34 @@ import com.sk89q.worldedit.bukkit.WorldEditPlugin;
 import me.mao.minigame.api.usesAPI;
 
 
+
 import me.mao.minigame.arena.ArenaManager;
 import me.mao.minigame.commands.TestCommand;
 import me.mao.minigame.commands.arenaCommands.*;
 import me.mao.minigame.commands.rankCommands.RankCommands;
+
 import me.mao.minigame.listeners.AsyncPlayerChat;
 import me.mao.minigame.listeners.PlayerJoin;
 import me.mao.minigame.listeners.PlayerLeave;
+import me.mao.minigame.team.TeamManager;
 import me.mao.minigame.user.UserManager;
 import me.mao.minigame.user.rank.RankManager;
+
 import org.bukkit.Bukkit;
+
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.util.HashSet;
-import java.util.Set;
+
 
 public class Core extends JavaPlugin implements usesAPI {
 
     private static Core instance;
-    private Set<Class<?>> commandHolder;
-    private Set<Class<?>> listenerHolder;
 
     private UserManager userManager;
     private WorldEditPlugin worldEditPlugin;
     private ArenaManager arenaManager;
     private RankManager rankManager;
+    private TeamManager teamManager;
 
     public static Core getInstance() {
         return instance;
@@ -54,6 +57,8 @@ public class Core extends JavaPlugin implements usesAPI {
 
         userManager.loadUsers();
 
+        //teamManager.loadTeams();
+
         arenaManager.loadArenas();
 
 
@@ -68,13 +73,51 @@ public class Core extends JavaPlugin implements usesAPI {
     public void registerCommands() {
         new RankCommands(this);
         new TestCommand(this);
-        new Arenas(this);
-        new Create(this);
-        new Delete(this);
-        new ForceStart(this);
-        new ForceStop(this);
-        new Join(this);
-        new Leave(this);
+
+        //ARENA COMMANDS
+
+        this.getCommand("addspawn").setExecutor(new ArenaAddSpawn());
+        this.getCommand("as").setExecutor(new ArenaAddSpawn());
+
+        this.getCommand("acreate").setExecutor( new ArenaCreate());
+        this.getCommand("ac").setExecutor( new ArenaCreate());
+
+        this.getCommand("adelete").setExecutor(new ArenaDelete());
+        this.getCommand("ad").setExecutor(new ArenaDelete());
+
+        this.getCommand("astart").setExecutor( new ArenaForceStart());
+        this.getCommand("frs").setExecutor( new ArenaForceStart());
+
+        this.getCommand("astop").setExecutor(new ArenaForceStop());
+        this.getCommand("fs").setExecutor(new ArenaForceStop());
+
+        this.getCommand("ahelp").setExecutor(new ArenaHelp());
+        this.getCommand("ah").setExecutor(new ArenaHelp());
+
+        this.getCommand("ajoin").setExecutor(new ArenaJoin());
+        this.getCommand("aj").setExecutor(new ArenaJoin());
+
+        this.getCommand("aleave").setExecutor(new ArenaLeave());
+
+        this.getCommand("alist").setExecutor(new ArenaList());
+        this.getCommand("arenas").setExecutor(new ArenaList());
+        this.getCommand("al").setExecutor(new ArenaList());
+
+        this.getCommand("areload").setExecutor(new ArenasReload());
+        this.getCommand("arl").setExecutor(new ArenasReload());
+
+        this.getCommand("arenaspawns").setExecutor(new ArenaSpawns());
+
+        this.getCommand("arenastate").setExecutor(new ArenaGameState());
+
+        /*
+        new me.mao.minigame.commands.teamCommands.Create(this);
+        new me.mao.minigame.commands.teamCommands.Delete(this);
+        new me.mao.minigame.commands.teamCommands.Invite(this);
+        new me.mao.minigame.commands.teamCommands.Kick(this);
+        new me.mao.minigame.commands.teamCommands.Leave(this);
+        new me.mao.minigame.commands.teamCommands.Teams(this);
+        */
     }
 
     public void registerListeners() {
@@ -85,11 +128,11 @@ public class Core extends JavaPlugin implements usesAPI {
 
     public void loadDepends() {
         instance = this;
-        commandHolder = new HashSet<>();
-        listenerHolder = new HashSet<>();
         userManager = new UserManager();
         arenaManager = new ArenaManager();
         rankManager = new RankManager();
+        teamManager = new TeamManager();
+
     }
 
     public UserManager getUserManager() {
@@ -107,5 +150,10 @@ public class Core extends JavaPlugin implements usesAPI {
     public RankManager getRankManager() {
         return rankManager;
     }
+
+    public TeamManager getTeamManager() {
+        return teamManager;
+    }
+
 
 }

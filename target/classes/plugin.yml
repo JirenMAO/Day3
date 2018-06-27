@@ -3,21 +3,39 @@ name: day3
 version: 0.0.3
 commands:
   heal:
-  join:
-  leave:
-  create:
-  delete:
-  remove:
-  fstart:
-  start:
-  fstop:
-  stop:
-  j:
-  l:
-  c:
+  addspawn:
+  as:
+  acreate:
+  ac:
+  adelete:
+  ad:
+  astart:
+  frs:
+  astop:
+  fs:
+  ahelp:
+  ah:
+  ajoin:
+  aj:
+  aleave:
+  alist:
   arenas:
-  listarenas:
+  al:
+  areload:
+  arl:
+  arenaspawns:
+  arenastate:
   fcreate:
   rank:
   mr:
-  menchant:
+  tcreate:
+  tdelete:
+  tinvite:
+  tinv:
+  tkick:
+  tleave:
+  teams:
+  listteams:
+  tc:
+  tremove:
+  tl:

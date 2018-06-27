@@ -20,8 +20,12 @@ public class UserManager {
         users = new HashSet<User>();
         data = new UserData(core, "users");
 
-        data.getKeys(false).forEach(String -> loadUser(String));
-        Bukkit.getOnlinePlayers().forEach(Player -> loadUser(Player));
+        if(!data.getKeys(false).isEmpty()) {
+            data.getKeys(false).forEach(String -> loadUser(String));
+            Bukkit.getOnlinePlayers().forEach(Player -> loadUser(Player));
+        }else {
+            return;
+        }
 
          core.getLogger().info("LOADED ALL USERS!");
     }
@@ -94,6 +98,10 @@ public class UserManager {
         if(r.equals(null)) return null;
 
         return r;
+    }
+
+    public UserData getUserData() {
+        return data;
     }
 
 

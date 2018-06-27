@@ -53,4 +53,8 @@ public class User extends CoreUser {
     public boolean hasPermission(String permission) {
         return rank.getPermissions().contains(permission);
     }
+
+    public Player getPlayer() {
+        return Bukkit.getPlayer(id);
+    }
 }
